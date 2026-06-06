@@ -60,7 +60,8 @@ To ensure that apache2 is up, running, and active within systemd, run the follow
 
 Bash
 sudo systemctl status apache2
-(Place Screenshot here showing active (running) status)
+<img width="975" height="745" alt="image" src="https://github.com/user-attachments/assets/e02923c7-f382-4f85-b230-75b64c747e38" />
+
 
 Validating Web Server Access
 Verify that the server is reachable over the Internet by hitting its Public IP address or Public DNS from your web browser:
@@ -165,8 +166,8 @@ phpinfo();
 Open a browser tab and request your dedicated testing endpoint URL:
 
 Plaintext
-[http://18.225.224.255/info.php](http://18.225.224.255/info.php)
-(Place Screenshot here showing your server's PHP Info Summary grid window)
+[http://18.225.224.255/info.php](http://18.225.224.255/info.php)<img width="1006" height="572" alt="image" src="https://github.com/user-attachments/assets/383f19e0-c775-44d5-a59b-f2372b0beac6" />
+
 
 ⚠️ CRITICAL SECURITY NOTE: After confirming that your backend application components communicate properly, delete the generated info.php testing script file. Leaving it open publicly exposes comprehensive architecture specifications about your AWS virtual container to the web.
 
